@@ -28,6 +28,7 @@ int main() { // pocz¹tek main()
     }
     */
 
+    /*
     // zadanie 2
     int n;
     cout << "Podaj wielkosc tablicy: ";
@@ -42,4 +43,8 @@ int main() { // pocz¹tek main()
         cout << table[i] << endl;
     }
     return 0;
+    */
+
+    // TUTAJ MO¯ESZ ZACZ¥Æ ZADANIE 3
+
 } // koniec main()
