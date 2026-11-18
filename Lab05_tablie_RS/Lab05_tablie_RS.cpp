@@ -29,5 +29,17 @@ int main() { // pocz¹tek main()
     */
 
     // zadanie 2
-
+    int n;
+    cout << "Podaj wielkosc tablicy: ";
+    cin >> n;
+    int* table = new int[n];
+    table[0] = 0;
+    table[1] = 1;
+    cout << table[0] << endl;
+    cout << table[1] << endl;
+    for (int i = 2; i < n; i++) {
+        table[i] = table[i - 1] + table[i - 2];
+        cout << table[i] << endl;
+    }
+    return 0;
 } // koniec main()
